@@ -29,7 +29,7 @@ java -jar compiler.jar --js app.js --js_output_file app.min.js --compilation_lev
 
 In case of JQuery for example you may encounter an error **_$ is undeclared_**
 
-so you may want to use --externs option for that and before using it you need to go to their [jquery closure library](closure-compiler.googlecode.com/svn/trunk/externs/jquery-1.8.js) and download the file and put it in your project and run this command with --externs option
+so you may want to use --externs option for that and before using it you need to go to their [jquery closure library](https://github.com/google/closure-compiler/tree/master/contrib/externs) and download the file and put it in your project and run this command with --externs option
 
 ```shell
 java -jar compiler.jar --js app.js --js_output_file app.min.js --compilation_level ADVANCED_OPTIMIZATIONS --warning_level VERBOSE --externs jquery.closure.js
