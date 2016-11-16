@@ -12,5 +12,5 @@ java -jar compiler.jar --js app.js --js_output_file app.min.js --compilation_lev
 
 or you can use optimization level _White space only_
 ```shell
-java -jar compiler.jar --js app.js --js_output_file app.min.js --compilation_level 
+java -jar compiler.jar --js app.js --js_output_file app.min.js --compilation_level WHITE_SPACE_ONLY
 ```
